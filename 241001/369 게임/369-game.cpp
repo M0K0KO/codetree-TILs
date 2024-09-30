@@ -16,15 +16,31 @@ int main() {
                 std::cout << i << " ";
             }
         }
-        else if (i >= 10 && i < 100) {
+        else if (i >= 30 && i < 100) {
+            int t10, t1;
+            t10 = i /10;
+            t1 = i % 10;
+
+            if(i%3 == 0) {
+                std::cout << 0 << " ";
+            }
+            else if (t1 % 3 == 0 || t10 % 3 == 0) {
+                std::cout << 0 << " ";
+            }
+            else {
+                std::cout << 0 << " ";
+            }
+        }
+        else if (i >= 10 && i < 30) {
             int t10, t1;
             t10 = i / 10;
             t1 = i % 10;
-
+            
+            
             if (i%3 == 0) {
                 std::cout << 0 << " ";
             }
-            else if (t10 % 3 == 0 || t1 % 3 == 0){
+            else if (t1 % 3 == 0){
                 std::cout << 0 << " ";
             }
             else {
