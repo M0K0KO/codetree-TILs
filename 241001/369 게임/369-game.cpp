@@ -38,7 +38,7 @@ int main() {
             if (i % 3 == 0) {
                 std::cout << 0 << " ";
             }
-            else if(t10 % 3 == 0 || t1 % 3 == 0) {
+            else if(t10 % 3 == 0 || (t1 % 3 == 0 && t1 != 0)) {
                 std::cout << 0 << " ";
             }
             else {
