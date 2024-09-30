@@ -9,6 +9,9 @@ int main() {
 
     std::cin >> a >> b;
 
+    std::cout << fixed;
+    std::cout.precision(1)
+
     for (int i = a; i <= b; i++) {
         if (i % 5 == 0 || i % 7 == 0) {
             sum += i;
