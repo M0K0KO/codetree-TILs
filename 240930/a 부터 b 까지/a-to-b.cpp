@@ -10,10 +10,16 @@ int main() {
     while (a <= b) {
         if (a % 2 == 0) {
             a += 3;
+            if (a > b) {
+                break;
+            }
             std::cout << a << " ";
         }
         else {
             a *= 2;
+            if (a > b) {
+                break;
+            }
             std::cout << a << " ";
         }
     }
