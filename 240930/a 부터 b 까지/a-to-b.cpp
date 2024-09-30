@@ -7,7 +7,7 @@ int main() {
     std::cin >> a >> b;
     std::cout << a << " ";
 
-    while (a < b) {
+    while (a <= b) {
         if (a % 2 == 0) {
             a += 3;
             std::cout << a << " ";
