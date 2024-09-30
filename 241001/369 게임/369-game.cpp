@@ -10,7 +10,15 @@ int main() {
         if (i < 3) {
             std::cout << i << " ";
         }
-        else if (i >= 3 && i < 30) {
+        else if (i >= 3 && i < 10) {
+            if(i % 3 == 0) {
+                std::cout << 0 << " ";
+            }
+            else {
+                std::cout << i << " ";
+            }
+        }
+        else if (i >= 10 && i < 30) {
             if(i % 3 == 0) {
                 std::cout << 0 << " ";
             }
