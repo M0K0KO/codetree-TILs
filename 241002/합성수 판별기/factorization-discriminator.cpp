@@ -8,7 +8,7 @@ int main() {
 
     bool flag = false;
 
-    if (int i = 2; i <= n-1; i++){
+    for (int i = 2; i <= n-1; i++){
         if (n % i == 0) {
             flag = true;
         }
