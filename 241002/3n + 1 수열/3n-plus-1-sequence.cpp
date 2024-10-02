@@ -8,6 +8,10 @@ int main() {
     int cnt = 0;
 
     while(true){
+        if (n == 1) {
+            std::cout << cnt;
+            break;
+        }
         if (n % 2 == 0) {
             n /= 2;
             cnt++;
@@ -15,11 +19,6 @@ int main() {
         else {
             n = (n * 3) + 1;
             cnt++;
-        }
-
-        if (n == 1) {
-            std::cout << cnt;
-            break;
         }
     }
 
