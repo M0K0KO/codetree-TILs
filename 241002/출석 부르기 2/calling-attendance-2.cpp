@@ -3,11 +3,12 @@ using namespace std;
 
 int main() {
     // 여기에 코드를 작성해주세요.
-    while(true) {
-        int a;
-        std::cin >> a;
+
 
         while(true){
+            int a;
+            std::cin >> a;
+            
             if (a == 1) {
                 std::cout << "John" << std::endl;
                 continue;
@@ -28,7 +29,6 @@ int main() {
                 std::cout << "Vacancy" << std::endl;
                 break;
             }
-        }
     }
     return 0;
 }
