@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     // 여기에 코드를 작성해주세요.
-    while(True) {
+    while(true) {
         int a, b;
         char ch;
         std::cin >> a >> b >> ch;
