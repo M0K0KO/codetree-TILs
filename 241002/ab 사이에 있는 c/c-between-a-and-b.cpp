@@ -18,7 +18,7 @@ int main() {
         std::cout << "YES";
     }
     else {
-        std::cou << "NO";
+        std::cout << "NO";
     }
 
     return 0;
