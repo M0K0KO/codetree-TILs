@@ -17,7 +17,7 @@ int main() {
                 std::cout << "* ";
             }
 
-            for (int j = 0; j < i-2; j++){
+            for (int j = 0; j < n-i; j++){
                 std::cout << "  ";
             }
 
