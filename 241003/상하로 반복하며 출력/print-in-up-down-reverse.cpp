@@ -15,10 +15,16 @@ int main() {
             for (int j = 0 ; j < n / 2; j++) {
                 std::cout << i << n-i+1;
             }
+            if (n % 2 == 1) {
+                std::cout << i;
+            }
         }
         else {
             for (int j = 0; j < n / 2; j++){
                 std::cout << i << n-i+1;
+            }
+            if (n % 2 == 1) {
+                std::cout << i;
             }
         }
 
