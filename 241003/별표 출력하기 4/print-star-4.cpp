@@ -13,7 +13,7 @@ int main() {
         std::cout << std::endl;
     }
 
-    for (int i = 1; i <= n; i++){
+    for (int i = 2; i <= n; i++){
         for(int j = 0; j < i; j++){
             std::cout << "*" << " ";
         }
