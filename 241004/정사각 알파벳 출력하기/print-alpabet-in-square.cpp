@@ -5,10 +5,12 @@ int main() {
     // 여기에 코드를 작성해주세요.
     int n;
     std::cin >> n;
+    int cnt = 64;
 
     for (int i = 0; i < n; i++){
         for (int j = 0; j < n; j++){
-            std::cout << char(65+j);
+            cnt++;
+            std::cout << char(cnt);
         }
         std::cout << std::endl;
     }
