@@ -9,8 +9,8 @@ int main() {
 
     std::cout << 2 << " ";
 
-    for (int i = 2; i <= n; i++){
-        for (int j = 2; j < n; j++){
+    for (int i = 3; i <= n; i++){
+        for (int j = 2; j < i; j++){
             if (i % j == 0){
                 break;
             }
