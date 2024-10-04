@@ -11,10 +11,9 @@ int main() {
         for (int j = b; j >= a; j--){
             if (j % 2 == 0) {
                 std::cout << j << " * " << i << " = " << j * i;
-            }
-
-            if (j > a ) {
-                std::cout << " / ";
+                if (j > a ) {
+                    std::cout << " / ";
+                }
             }
         }
         std::cout << std::endl;
