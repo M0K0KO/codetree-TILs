@@ -13,7 +13,7 @@ int main() {
                 std::cout << j << " * " << i << " = " << j * i;
             }
 
-            if (j <= b ) {
+            if (j < b ) {
                 std::cout << " / ";
             }
         }
