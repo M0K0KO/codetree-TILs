@@ -15,6 +15,8 @@ int main() {
 
         arr[i] = a;
         i++;
+        if (i == 10)
+            break;
     } while(true);
 
     for (int j = i-1; j >= 0; j--){
