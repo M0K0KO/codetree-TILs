@@ -15,7 +15,7 @@ int main() {
 
         arr[rem]++;
 
-        if (a == 0) break;
+        if (a <= 1) break;
     }
 
     int s = 0;
