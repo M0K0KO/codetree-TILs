@@ -16,7 +16,7 @@ int main() {
         std::cin >> b[i];
     }
 
-    int attempt = n1-n2;
+    int attempt = n1-n2+1;
     if (attempt > 0) {
         int cnt = 0;
         for (int i = 0; i < attempt; i++) {
