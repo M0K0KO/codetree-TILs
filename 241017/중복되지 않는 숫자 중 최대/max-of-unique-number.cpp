@@ -1,4 +1,5 @@
 #include <iostream>
+#include <climits>
 using namespace std;
 
 int main() {
@@ -14,7 +15,7 @@ int main() {
 
     bool flag = false;
 
-    int mx = arr[0];
+    int mx = INT_MIN;
 
     for (int i = 0; i < n; i++){
         if (arr[i] > mx) 
