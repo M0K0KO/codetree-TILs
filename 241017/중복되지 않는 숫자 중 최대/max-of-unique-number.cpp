@@ -13,7 +13,7 @@ int main() {
         std::cin >> arr[i];
     }
 
-    bool flag = false;
+    bool flag = true;
 
     int mx = INT_MIN;
 
