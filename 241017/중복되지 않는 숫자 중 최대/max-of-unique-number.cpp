@@ -19,8 +19,20 @@ int main() {
     for (int i = 0; i < n; i++){
         if (arr[i] > mx) 
         {
-            mx = arr[i];
-            flag = false;
+            int cnt = 0;
+            bool isMult = false;
+            for (int j = 0; j < n; j++) {
+                if (arr[i] == arr[j]) cnt++;
+                if (cnt >= 2) {
+                    isMult = true;
+                    break;
+                } 
+            }
+
+            if (isMult == false) {
+                mx = arr[i];
+                flag = false;
+            }
         }
 
         else if (arr[i] == mx) flag = true;
