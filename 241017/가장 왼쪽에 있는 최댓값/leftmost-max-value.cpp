@@ -21,9 +21,9 @@ int main() {
             if (arr[i] > mx) {
                 mx = arr[i];
                 mx_idx = i;
-                a = mx_idx;
             } 
-        }        
+        }
+        a = mx_idx;
 
         std::cout << mx_idx + 1 << " ";
         if (mx_idx == 0) break;
