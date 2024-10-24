@@ -16,7 +16,7 @@ int main() {
             }
         }
         else {
-            for (int j = i - (m-1); i-j > 0; j++){
+            for (int j = i - (m-1); i-j >= 0 && j < n; j++){
                 arr[j][i-j] = num;
                 num++;
             }
