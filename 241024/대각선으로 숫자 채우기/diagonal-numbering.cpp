@@ -4,7 +4,6 @@ using namespace std;
 int main() {
     // 여기에 코드를 작성해주세요.
     int n, m;
-
     std::cin >> n >> m;
     int arr[n][m];
     int num = 1;
@@ -17,7 +16,7 @@ int main() {
             }
         }
         else {
-            for (int j = i - (n-1); j < m; j++){
+            for (int j = i - (m-1); i-j > 0; j++){
                 arr[j][i-j] = num;
                 num++;
             }
