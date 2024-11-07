@@ -6,7 +6,13 @@ int main() {
     int n, m;
     std::cin >> n >> m;
 
-    int arr[n][n] = {{0},};
+    int arr[n][n];
+
+    for (int i = 0; i < n; i++){
+        for (int j = 0; j < n; j++){
+            arr[i][j] = 0;
+        }
+    }
 
     for (int i = 0; i < m; i++){
         int a, b;
